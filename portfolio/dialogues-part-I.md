@@ -6,7 +6,7 @@
 
 ### Act I
 
-*Mercutio and Capulet enter, stage right.*
+*[Mercutio and Capulet enter, stage right]*
 
 Mercutio: A question. What's the simplest thing that produces value?
 
@@ -142,7 +142,7 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 **M:** Cool cool.
 
-{{ Both work together to create the list. }}
+*[Both work together to create the list]*
 
 * Stack provisioning - build stack: Terraform
 * Stack provisioning - deployment stack: Terraform
@@ -214,12 +214,11 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 
 
-
 ### Act II
 
 #### Scene I
 
-*Both are back at work the next day*
+*[Both are back at work the next day]*
 
 **M:** Good morning, Capulet. I've started reading _Ansible for DevOps_. At the top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
 
@@ -253,7 +252,7 @@ Also, I've just learned that Vagrant can, in fact, manage more than one server a
 
 **M:** [With a bit of coldness.] Point taken. I'm going for coffee, will be back in 20 minutes. Care to join me?
 
-[Both walk to Zeitgeist.]
+*[Both walk to Zeitgeist]*
 
 
 #### Scene II
@@ -300,6 +299,7 @@ Also, I've just learned that Vagrant can, in fact, manage more than one server a
 
 **M:** Not at all. We're basically putting down the foundations for what's to come. Let's break for a few minutes then get into it. Once we've agreed to terms and expectations, we'll have a solid core from which to work.
 
+
 #### Scene III
 
 **M:** Okay, I took us in this direction, so I'll start. We need some way of managing inputs. How do we know what to work on?
@@ -309,6 +309,8 @@ I propose we assume we're using Agile with at least the "core" components and ce
 **C:** Wait, what? There are no core components or ceremonies. That's another bias.
 
 **M:** Oh shirt, I think you're right. In my mind, the core components are:
+
+*[Mercutio goes to the whiteboard and starts writing]*
 
 * a backlog owner (a person) who sets priorities for the team
 * a scrum master (a person) who reviews the work in progress, and facilitates the ceremonies
