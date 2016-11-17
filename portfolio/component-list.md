@@ -218,9 +218,10 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 * Continuous deployment: Ansible or Jenkins
 * Secrets management: HashiCorp Vault
 
+
 **C:** I hesitate to say it, but we've not considered testing tools at all yet.
 
-**M:** Nope. And I'm too fried right now to even think about it. Let's go get a drink and call it a day.
+**M:** Nope. And I'm too fried right now to even think about it. Let's talk about it tomorrow morning.
 
 *Mercutio and Capulet exit stage right*
 
@@ -230,3 +231,11 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 ### Scene II
 
 *Both are back at work the next day*
+
+**M:** Good morning, Capulet. I've started reading _Ansible for DevOps_. Top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
+
+* [Ansible Documentation](https://docs.ansible.com/ansible).
+* [Ansible Glossary!](https://docs.ansible.com/ansible/glossary.html)  Hot sauce!
+* [Ansible for DevOps Errata](https://www.ansiblefordevops.com/errata)
+
+Also, I've just learned that Vagrant can, in fact, manage more than one server at a time. It can also provision a database! This is important, because the book uses Vagrant as a local development environment, which is (IMO) it's main benefit. Super.
