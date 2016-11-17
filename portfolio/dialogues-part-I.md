@@ -326,15 +326,59 @@ Then the core ceremonies are:
 * [optional] design discussions among the team
 * [optional but encouraged] 30% and 90% demos for the stakeholders
 * a sprint acceptance meeting
-*
+* a sprint retrospective, where developers can talk freely about what worked and what didn't work. The scrum master may capture notes, and those notes may be shared with the backlog owner and/or product owner. *[attendees: sprint implementers and scrum master/facilitator]*
 
 Some additional notes:
 
-* Stories on the happy path move from new to grooming to ready (groomed) to in progress to done to accepted.
+* Stories on the happy path move from *new* to *grooming* to *ready (groomed)* to *in progress* to *done* to *accepted*.
+* Standup is **not** a status meeting. It's for the developers to communicate with one another and with the scrum master. The product owner may be there, but many teams would prefer they not be. They'll see the results at the demo.
+* The backlog owner is typically responsible for working with a product team or someone representing end users.
+  * This can get tricky because developers may feel like they're not part of the conversation about evolving the product. So it's really important to have an open discussion and make sure people are heard. Ultimately, however, the product owner and the backlog owner need to come to agreement.
 
-  * The backlog owner is typically responsible for working with a product team or someone representing end users.
-  * This gets tricky because it's easy for the developers to feel like they're not part of the conversation about evolving the product. So it's really important to have an open discussion. Ultimately, however, the product owner and the backlog owner need to come to agreement.
 
+**TODO stick this in a box**
+
+BEGIN Important note:
+
+We need a working agreement among all stakeholders.
+
+It's implied here, and I want to make it explicit. Different people are involved in different parts of the process. For example, the product owner and the backlog owner will have to meet to decide on product development priorities at a high level. Then the backlog owner and the scrum master will probably meet to write stories. They may groom them at the same time.
+
+*A note on story grooming* Ultimately, this is the responsibility of the backlog owner. They may have to consult with the developers or stakeholders ...
+
+*[Capulet interrupts: stakeholders? Mercutio provides a definition. TODO: define this somewhere. Holy shirt, rabbit hole is right. But a glossary is a **tremendously** good idea.]*
+
+As I was saying, they may have to consult with the developers or stakeholders to understand exactly what is being requested, **and** whether the request is feasible. Once it's within range, the backlog owner should finish grooming the story.
+
+But I'm getting off topic. The point is that ...
+
+Working agreements could be something like:
+
+*aaand the first thing I do is write definitions. WTF? :)*
+
+* <DEF feature team> consists of product owner, backlog owner, scrum master, developers (&& QA I guess, if you roll that way)
+* <DEF sprint team> is defined as everyone except the product owner
+
+* AGREEMENT: product owner and backlog owner are required at product prioritization meetings; scrum master is optional
+* AGREEMENT: backlog owner and scrum master are required at backlog grooming meeting; sprint team developers are optional
+* AGREEMENT: product owner and sprint team developers may be called upon to fill in gaps in backlog owner's understanding, to help with story grooming and maturation. *[Capulet: maturation? Mercutio provides a definition.]*
+* AGREEMENT: Stories should come to poker pointing fully groomed. All maturation should be completed before the meeting, or the story will be de-prioritized until it's properly groomed.
+  * There are two sides to this. On one hand, the backlog owner could argue that the story pointing session is the best time to mature the story with the whole sprint team present. On the other hand, the developers could (rightly, in my view) argue that a poker planning session is not the time for story maturation.
+  *
+* AGREEMENT: everyone on the sprint team attends poker planning
+* AGREEMENT:
+* AGREEMENT:
+* AGREEMENT:
+* AGREEMENT: 
+
+END Important note
+
+
+At that point the stories should be groomed.
+
+After that, the stories are either groomed and ready to be pointed, or the backlog owner and scrum master will want to meet with some or all of the team to continue grooming them. This is a slippery slope, though, because the
+
+* [not typically ] a written working agreement
 
 
 
