@@ -302,7 +302,36 @@ Also, I've just learned that Vagrant can, in fact, manage more than one server a
 
 #### Scene III
 
+**M:** Okay, I took us in this direction, so I'll start. We need some way of managing inputs. How do we know what to work on?
 
+I propose we assume we're using Agile with at least the "core" components and ceremonies.
+
+**C:** Wait, what? There are no core components or ceremonies. That's another bias.
+
+**M:** Oh shirt, I think you're right. In my mind, the core components are:
+
+* a backlog owner (a person) who sets priorities for the team
+* a scrum master (a person) who reviews the work in progress, and facilitates the ceremonies
+* a product backlog in some trusted system, like Jira
+* a set of groomed stories in priority order
+* the notion of a sprint, including length (maybe two weeks) and a calendar
+* [optional but encouraged] a burn down chart for the current sprint
+
+Then the core ceremonies are:
+
+* a poker pointing session where groomed stories are evaluated for level of effort
+* a quick daily standup where everyone says what they did the day before, what they're doing today, and if they have any impediments
+* [optional] design discussions among the team
+* [optional but encouraged] 30% and 90% demos for the stakeholders
+* a sprint acceptance meeting
+*
+
+Some additional notes:
+
+* Stories on the happy path move from new to grooming to ready (groomed) to in progress to done to accepted.
+
+  * The backlog owner is typically responsible for working with a product team or someone representing end users.
+  * This gets tricky because it's easy for the developers to feel like they're not part of the conversation about evolving the product. So it's really important to have an open discussion. Ultimately, however, the product owner and the backlog owner need to come to agreement.
 
 
 
