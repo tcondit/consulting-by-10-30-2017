@@ -6,11 +6,11 @@
 
 ### Act I
 
-*[Mercutio and Capulet enter, stage right]*
+*[Mercutio and Tybalt enter, stage right]*
 
 Mercutio: A question. What's the simplest thing that produces value?
 
-Capulet: Assuming you've got something to build, a build stack.
+Tybalt: Assuming you've got something to build, a build stack.
 
 **M:** Okay, let's start there.
 
@@ -210,7 +210,7 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 **M:** Nope. And I'm too fried right now to even think about it. Let's talk about it tomorrow morning.
 
-*Mercutio and Capulet exit stage right*
+*Mercutio and Tybalt exit stage right*
 
 
 
@@ -220,7 +220,7 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 *[Both are back at work the next day]*
 
-**M:** Good morning, Capulet. I've started reading _Ansible for DevOps_. At the top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
+**M:** Good morning, Tybalt. I've started reading _Ansible for DevOps_. At the top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
 
 * [Ansible Documentation](https://docs.ansible.com/ansible).
 * [Ansible Glossary!](https://docs.ansible.com/ansible/glossary.html)  Hot sauce!
@@ -275,7 +275,7 @@ Also, I've just learned that Vagrant can, in fact, manage more than one server a
 
 **M:** Why do we need testing everywhere? I mean, is validation and testing everywhere really worth the effort?
 
-**C:** I suspect it is, but let's go back to first principles and build from there. Do we agree that testing source code at different "levels" [Capulet, muttering to himself: "need a better word for this"] is appropriate and worth the effort?
+**C:** I suspect it is, but let's go back to first principles and build from there. Do we agree that testing source code at different "levels" [Tybalt, muttering to himself: "need a better word for this"] is appropriate and worth the effort?
 
 **M:** Yes, it's well understood by now that without unit testing, for instance, it's more difficult to refactor your code or add features without risking uncaught regression. XP says it gives you courage. That's always stuck with me.
 
@@ -346,7 +346,7 @@ It's implied here, and I want to make it explicit. Different people are involved
 
 *A note on story grooming* Ultimately, this is the responsibility of the backlog owner. They may have to consult with the developers or stakeholders ...
 
-*[Capulet interrupts: stakeholders? Mercutio provides a definition. TODO: define this somewhere. Holy shirt, rabbit hole is right. But a glossary is a **tremendously** good idea.]*
+*[Tybalt interrupts: stakeholders? Mercutio provides a definition. TODO: define this somewhere. Holy shirt, rabbit hole is right. But a glossary is a **tremendously** good idea.]*
 
 As I was saying, they may have to consult with the developers or stakeholders to understand exactly what is being requested, **and** whether the request is feasible. Once it's within range, the backlog owner should finish grooming the story.
 
@@ -361,7 +361,7 @@ Working agreements could be something like:
 
 * AGREEMENT: product owner and backlog owner are required at product prioritization meetings; scrum master is optional
 * AGREEMENT: backlog owner and scrum master are required at backlog grooming meeting; sprint team developers are optional
-* AGREEMENT: product owner and sprint team developers may be called upon to fill in gaps in backlog owner's understanding, to help with story grooming and maturation. *[Capulet: maturation? Mercutio provides a definition.]*
+* AGREEMENT: product owner and sprint team developers may be called upon to fill in gaps in backlog owner's understanding, to help with story grooming and maturation. *[Tybalt: maturation? Mercutio provides a definition.]*
 * AGREEMENT: Stories should come to poker pointing fully groomed. All maturation should be completed before the meeting, or the story will be de-prioritized until it's properly groomed.
   * There are two sides to this. On one hand, the backlog owner could argue that the story pointing session is the best time to mature the story with the whole sprint team present. On the other hand, the developers could (rightly, in my view) argue that a poker planning session is not the time for story maturation.
   *
