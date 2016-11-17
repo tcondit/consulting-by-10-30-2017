@@ -1,23 +1,10 @@
-# Possible Components (a list)
-
-## Categories (and options)
-
-* build *(Jenkins, DroneCI, Distelli)*
-* containers *(Docker, rkt, Kubernetes)*
-* server provisioning *(Terraform, CloudFormation)*
-* configuration management *(Chef, Ansible)*
-* databases *(RDS, DynamoDB)*
-* desktop client [think Dashlane, for inspiration] *(#1, #2)*
-* web client *(#1, #2)*
-* Android client *(#1, #2)*
-* iOS client *(#1, #2)*
-
+# Dialogues, part I
 
 ## Simplest functional requirements, Socratic style
 
 *Trying something new.*
 
-### Scene I
+### Act I
 
 *Mercutio and Capulet enter, stage right.*
 
@@ -228,14 +215,108 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 
 
-### Scene II
+### Act II
+
+#### Scene I
 
 *Both are back at work the next day*
 
-**M:** Good morning, Capulet. I've started reading _Ansible for DevOps_. Top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
+**M:** Good morning, Capulet. I've started reading _Ansible for DevOps_. At the top of page ix, it says Ansible does three things in one. If I'm reading it right, the three things are **configuration management**, **server deployment** and **task execution**.
 
 * [Ansible Documentation](https://docs.ansible.com/ansible).
 * [Ansible Glossary!](https://docs.ansible.com/ansible/glossary.html)  Hot sauce!
 * [Ansible for DevOps Errata](https://www.ansiblefordevops.com/errata)
 
 Also, I've just learned that Vagrant can, in fact, manage more than one server at a time. It can also provision a database! This is important, because the book uses Vagrant as a local development environment, which is (IMO) it's main benefit. Super.
+
+**C:** That's good stuff! No question.
+
+**M:** But ... ?
+
+**C:** But we're going broad when I think we should go deep. Last week I passed the AWS Certified Developer Associate exam.
+
+**M:** Well done!
+
+**C:** Many thanks, Mercutio! I don't consider it a really big accomplishment. But I got there by focusing on one thing at a time. More to the point, I set myself the goal of **completing** one thing at a time.
+
+**M:** And it paid off.
+
+**C:** It did indeed.
+
+**M:** I see what you're saying, but this is coming somewhat out of left field. It's not what we've been talking about, which is to my way of thinking, also about completing one thing. In this case, that one thing is coming up with an initial cut at a preferred tech stack.
+
+**C:** Yes, but now you're off reading about Ansible.
+
+**M:** I've got to learn a bit about it before deciding if or how it fits into our plans.
+
+**C:** [With a whiff of righteousness.] I'd just caution you not to lose sight of the goal.
+
+**M:** [With a bit of coldness.] Point taken. I'm going for coffee, will be back in 20 minutes. Care to join me?
+
+[Both walk to Zeitgeist.]
+
+
+#### Scene II
+
+[They've talked about their minor irritation with each other, and all is well. No more will be said about it right now.]
+
+**M:** Back to it. Do we *now* have enough info to make some decisions? We've identified many of our tools, and have also identified some gaps. Here they are again:
+
+{{ Updated list from yesterday. }}
+
+* Stack provisioning - build stack: Terraform
+* Stack provisioning - deployment stack: Terraform
+* Configuration management: Ansible
+* Continuous integration: Jenkins
+* Continuous deployment: Ansible or Jenkins
+* Secrets management: HashiCorp Vault
+
+
+**C:** If we add in validation and testing, that list becomes twice as long! That's assuming and/or deciding that we need testing everywhere along the way.
+
+**M:** Why do we need testing everywhere? I mean, is validation and testing everywhere really worth the effort?
+
+**C:** I suspect it is, but let's go back to first principles and build from there. Do we agree that testing source code at different "levels" [Capulet, muttering to himself: "need a better word for this"] is appropriate and worth the effort?
+
+**M:** Yes, it's well understood by now that without unit testing, for instance, it's more difficult to refactor your code or add features without risking uncaught regression. XP says it gives you courage. That's always stuck with me.
+
+**C:** What about functional testing? What about integration testing?
+
+**M:** Those are, to use your word, different levels. They bring different values. Functional testing is typically part of the acceptance criteria for a story.
+
+**C:** So it is. But isn't that begging the question? Just because we're doing it now doesn't mean we should be doing it at all.
+
+**M:** An appeal for rigor. Excellent. IMO, we do functional testing for at least two complementary reasons. First, we want to ensure that things work as expected. Second, we ensure that things that should not work fail without errors.
+
+**C:** You're introducing bias. We're ensuring things work as expected, but who's expectation?
+
+**M:** We want to ensure things work as specified in the functional requirements documentation.
+
+**C:** Not to beat a dead horse, but that's another bias. You're assuming that we've created a functional requirements document.
+
+**M:** A modern analog, but poor substitute might be the *definition of done* for the story in which the feature is implemented. And I know what you're going to say next: now I'm assuming you're using stories and working in an agile methodology. Let's clarify some base assumptions / expectations.
+
+**C:** Down the rabbit hole with Alice ...
+
+**M:** Not at all. We're basically putting down the foundations for what's to come. Let's break for a few minutes then get into it. Once we've agreed to terms and expectations, we'll have a solid core from which to work.
+
+#### Scene III
+
+
+
+
+
+
+**C:** That's a loaded question, but I'll take the bait. Yes, of course it is.
+
+* Stack provisioning - build stack: Terraform
+  * Validation and testing: **TODO**
+* Stack provisioning - deployment stack: Terraform
+  * Validation and testing: **TODO**
+* Configuration management: Ansible
+  * Validation and testing: **TODO**
+* Continuous integration: Jenkins
+  * Validation and testing: **TODO**
+* Continuous deployment: Ansible or Jenkins
+  * Validation and testing: **TODO**
+* Secrets management: HashiCorp Vault
