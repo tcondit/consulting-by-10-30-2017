@@ -8,13 +8,11 @@
 
 *[Mercutio and Tybalt enter, stage right]*
 
-Mercutio: A question. What's the simplest thing that produces value?
+**Mercutio:** A question. What's the simplest thing that produces value?
 
-Tybalt: Assuming you've got something to build, a build stack.
+**Tybalt:** Assuming you've got something to build, a build stack.
 
-**M:** Okay, let's start there.
-
-**M:** How to make a build stack as simply as possible?
+**M:** Okay, let's start there. How to make a build stack as simply as possible?
 
 **T:** Jenkins. Master and node all on one box. Run it locally on Vagrant.
 
@@ -76,7 +74,7 @@ But I also want to take another look at SaaS Distelli. The major differentiator 
 
 **M:** What's the difference?
 
-**T:** I should know, but don't know offhand. It's documented in **that one blog post** (TODO which?). Basically it comes down to: are you deploying every time, or just making sure the code (all of it, including IaSC) is ready to deploy every time?
+**T:** I should know, but don't know offhand. It's documented in [that one blog post](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff). Basically it comes down to: are you deploying every time, or just making sure the code (all of it, including IaSC) is ready to deploy every time?
 
 **M:** That brings up an interesting point. There's no way you can call something ready to deploy without automated testing.
 
@@ -362,9 +360,8 @@ Working agreements could be something like:
 * AGREEMENT: product owner and backlog owner are required at product prioritization meetings; scrum master is optional
 * AGREEMENT: backlog owner and scrum master are required at backlog grooming meeting; sprint team developers are optional
 * AGREEMENT: product owner and sprint team developers may be called upon to fill in gaps in backlog owner's understanding, to help with story grooming and maturation. *[Tybalt: maturation? Mercutio provides a definition.]*
-* AGREEMENT: Stories should come to poker pointing fully groomed. All maturation should be completed before the meeting, or the story will be de-prioritized until it's properly groomed.
-  * There are two sides to this. On one hand, the backlog owner could argue that the story pointing session is the best time to mature the story with the whole sprint team present. On the other hand, the developers could (rightly, in my view) argue that a poker planning session is not the time for story maturation.
-  *
+* AGREEMENT: Stories should come to poker pointing fully groomed. All maturation should be completed before the meeting. Stories will not be pointed until they're properly groomed.
+  * Commentary: There are two sides to this. On one hand, the backlog owner could argue that the story pointing session is the best time to mature the story with the whole sprint team present. On the other hand, the developers could (rightly, in my view) argue that a poker planning session is not the time for story maturation.
 * AGREEMENT: everyone on the sprint team attends poker planning
 * AGREEMENT:
 * AGREEMENT:
